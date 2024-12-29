@@ -1,0 +1,18 @@
+{
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "typescript": "^5.7.2"
+  },
+  "name": "ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && jest" ,
+    "run": "npm run test && node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
